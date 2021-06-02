@@ -6,17 +6,15 @@ const TerserPlugin = require("terser-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
 module.exports = {
-  entry: "./src/index.js",
+  entry: "./src/index.tsx",
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js",
     publicPath: "/",
   },
   resolve: {
-    extensions: [".js", ".jsx"],
-    alias: {
-      "@styles": path.resolve(__dirname, "src/styles/"),
-    },
+    extensions: [".js", ".ts", ".tsx"],
+    alias: {},
   },
   mode: "production",
   module: {
@@ -27,6 +25,11 @@ module.exports = {
         use: {
           loader: "babel-loader",
         },
+      },
+      {
+        test: /\.tsx?$/,
+        exclude: /node_modules/,
+        loader: "babel-loader",
       },
       {
         test: /\.html$/,

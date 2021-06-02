@@ -1,0 +1,120 @@
+.title-box {
+  font-size: 24px;
+  font-weight: 700;
+  width: 100%;
+}
+
+.text-link {
+  flex: 1 1 auto;
+  font-size: 18px;
+  color: #d01e69;
+  text-align: right;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.text-card {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.text-amount-card {
+  color: #d01e69;
+}
+
+.container-flex {
+  display: flex;
+}
+
+.footer-card {
+  padding-top: 45px;
+}
+
+.text-align-flex-h {
+  flex: 1 1 auto;
+}
+
+.text-number-card {
+  flex: 1 1 auto;
+  font-size: 24px;
+  font-weight: 700;
+  color: #d01e69;
+  text-align: right;
+}
+
+.menu-item {
+  color: #42446f;
+}
+
+.menu-item :hover {
+  background-color: #d01e69;
+  color: white;
+}
+
+.box-margin-b {
+  margin-bottom: 30px;
+}
+
+.box-margin-t {
+  margin-top: 20px;
+}
+
+.circle-transaction-green {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  border: 2.5px solid #20f14e;
+  text-align: center;
+}
+
+.circle-transaction-red {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  border: 2.5px solid #ff0f0f;
+  text-align: center;
+}
+
+.incomes-data {
+  color: #20f14e;
+}
+
+.expenses-data {
+  color: #ff0f0f;
+}
+
+.logo {
+  margin-top: 10px;
+}
+
+.text-options {
+  font-size: 18px;
+  color: #d01e69;
+  height: fit-content;
+  border: none;
+  font-weight: 550;
+  cursor: pointer;
+}
+
+.graphic-item {
+  margin-right: 5px;
+  color: #d01e69;
+}
+
+.text-notfound {
+  font-size: 18px;
+  color: #d01e69;
+  margin-left: 10px;
+}
+
+.MuiInput-underline:before {
+  display: none;
+}
+
+.MuiInput-underline:after {
+  display: none;
+}
+
+.MuiSelect-select:focus {
+  background-color: #f1f1f1 !important;
+}
